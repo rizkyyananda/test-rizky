@@ -1,0 +1,2 @@
+database:
+  db: root:@(localhost:3306)/test_rizky?charset=utf8mb4&parseTime=True&loc=Local
