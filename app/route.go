@@ -38,6 +38,7 @@ func Route() {
 		order.POST("/list", orderController.GetAllData)
 		order.DELETE("/delete/:id", orderController.Delete)
 		order.GET("/oke/test")
+		order.GET("test")
 	}
 
 	customer := r.Group("customer")
