@@ -18,4 +18,4 @@ jobs:
           user: ${{ secrets.USERNAME }}
           pass: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          command: cd test-rizky && git pull origin master && go build main.go && sudo systemctl restart go
+          command: cd test-rizky && git pull origin master && go build main.go && sudo systemctl restart Belajar
